@@ -1,0 +1,4 @@
+Model -> The defination of the data in database
+Controller -> add user , remove user
+Routes -> defines the apis, how the frontend should call it
+Validators -> What should the client send when calling this validators

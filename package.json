@@ -1,0 +1,27 @@
+{
+  "name": "resturant",
+  "version": "1.0.0",
+  "description": "Resturant booking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon . --ignore client/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.7",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.3",
+    "@sequelize/core": "^7.0.0-alpha.37",
+    "bcrypt": "^5.1.1",
+    "hapi-swagger": "^17.2.1",
+    "joi": "^17.12.2",
+    "jsonwebtoken": "^9.0.2",
+    "material-ui-search-bar": "^1.0.1",
+    "mysql2": "^3.9.3",
+    "nodemailer": "^6.9.13",
+    "sequelize": "^6.37.2",
+    "ws": "^8.16.0"
+  }
+}
